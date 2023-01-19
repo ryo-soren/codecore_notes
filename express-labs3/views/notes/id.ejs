@@ -1,0 +1,12 @@
+<%- include("../partials/header.ejs")  %> 
+    <div>
+        <div><%- note.created_at  %> </div>
+        <p><%- note.content %></p>
+        <a href="/notes/<%=note.id%>/edit">edit</a>
+        <form action="/notes/<%=note.id%>" method="POST">
+            <input type="hidden" name="_method" value="DELETE">
+            <input type="submit" value="DELETE">
+        </form>
+    </div>
+    <br>
+<%- include("../partials/footer.ejs")  %> 

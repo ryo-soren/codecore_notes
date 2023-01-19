@@ -1,0 +1,21 @@
+.body{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4dcb4;
+    height: max-content;
+
+}
+
+.questionBox{
+    width: 30vw;
+
+    padding: 1em;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4dcb4;
+    height: 3em;
+}

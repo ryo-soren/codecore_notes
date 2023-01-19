@@ -1,0 +1,64 @@
+<h1>View Page</h1>
+
+<h2><%= @product.title %> </h2>
+<p><%= @product.description %> <small>$<%= (@product.price).round(2) %></small></p>
+<div>
+    <small>
+    Created <%= time_ago_in_words(@product.created_at)%> ago by <%= @product.user.full_name %> 
+    </small>
+</div>
+<% if can? :modify, @product %>
+<%= link_to "Edit", edit_product_path(@product.id) %>
+<%= button_to "Delete", @product, method: :delete %>
+<% end %>
+<% if user_signed_in? %>
+    <% if @favourite %>
+        <%= button_to "Remove from favourite", product_favourites_path(@product.id, @favourite.id), method: :delete %>
+    <% else %>
+        <%= button_to "Add to favourite", product_favourites_path(@product.id), method: :post %>
+    <% end %>
+<% end %>
+<ul>
+    <% @reviews.each do |review| %>
+    <li>
+        <%= review.body %>
+        <small>
+        Reviewed <%= time_ago_in_words(review.created_at)%> ago by <%= review.user.full_name %> 
+        </small>
+        <% if can? :modify, review %>
+        <%= button_to("Delete", product_review_path(@product.id, review.id) , method: :delete, data:{confirm:"Are you sure?"}) %>
+        <% end %>
+        <small>
+        <% if user_signed_in? %>
+            <% like = current_user.likes.find_by_review_id(review) %>
+            <% count = review.likes.count %>
+
+            <% if like %>
+                <%= button_to "Unlike", like_path(like), method: :delete %>
+                <small><%= count %> Likes</small>
+            <% else %>
+                <%= button_to "Like", product_review_likes_path(@product, review), method: :post %>
+                <small><%= count %> Likes</small>
+            <% end %>
+        <% end %>
+        </small>        
+    </li>
+    <% end %>
+</ul>
+<hr>
+
+<h3>Write a review</h3>
+<% if @review.errors.any? %>
+    <% @review.errors.full_messages.each do |msg| %>
+      <small> <%= msg %></small>
+    <% end %> 
+<% end %>
+
+<%= form_with(model: [@product, @review]) do |f| %>
+    <div>
+        <%= f.label :body %>
+        <br>
+        <%= f.text_area :body, cols: 50, rows: 5 %>
+    </div>
+    <%= f.submit "Review" %>
+<% end %>

@@ -1,0 +1,45 @@
+@import 'normalize.css';
+
+    @media(min-width: 400px){
+    .div-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr) max-content;
+
+
+    }
+
+    .img,.text{
+        max-width: 25vw;
+        max-height: max-content;
+        border: 1px solid black;
+    }
+
+    .textbox1{
+        grid-column: 2;
+    }
+
+    .img.box1{
+        grid-column: 4;
+    }
+
+    .img.box2{
+        grid-column:2
+    }
+
+    .textbox2{
+        grid-column:3;
+    }
+
+    .img.box4{
+        grid-column: 1;
+    }
+
+    .img.box5{
+        grid-column:4;
+        justify-content: center ;
+    }
+
+    img.box6{
+        grid-area: 5/2/6/4
+    }}

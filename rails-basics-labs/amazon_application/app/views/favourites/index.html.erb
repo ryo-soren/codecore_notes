@@ -1,0 +1,7 @@
+<h1>Favourite products</h1>
+
+<% @favourites.each do |product|%>
+    <div>
+        <%= link_to product.title, product %>
+    </div>  
+<% end %>

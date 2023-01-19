@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--html tag is the root tag of any html document-->
+<head>
+    <!--The head element contains all the information not displayed
+    i.e. the brain of the body-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS I</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.google.ca/?client=safari">Google</a>
+            <a class="hello" href="home.html">Home</a>
+        </nav>
+    </header>
+
+    <article>
+        <!--The body contains all the content displayed on the browser-->
+        <!-- This is an html comment.  You can place it anywhere in html document and it will not show up on the browser-->
+        <h1 style="background-color: red;">This is an h1 tag - Header 1</h1>
+        <p>This is a paragraph. <em>This is emphasized. </em><strong>This is strong. </strong><q>This is quoted</q></p>
+        <h3>Below is a blockquote of Lorem ipsum</h3>    
+        <blockquote>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Repellat praesentium minima atque labore perspiciatis ex sunt quasi 
+            odio officiis. Accusamus dignissimos, facere unde deserunt vel 
+            suscipit nulla laboriosam laudantium reprehenderit.
+        </blockquote>
+        <div>A div works like a section, and is a block tag</div>
+    </article>
+
+    <aside>
+        <h2>Ordered List</h2>
+        <ol class="olc">
+            <li>Item 1</li>
+            <li class="bye">Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <h2>Unordered List</h2>
+        <ul>
+            <li class="bye"><h1>H1 Header</h1></li>
+            <li><h2>H2 Header</h2></li>
+            <li><h3>H3 Header</h3></li>
+            <li class="hello"><h4>H4 Header</h4></li>
+            <li><h5>H5 Header</h5></li>
+            <li><h6>H6 Header</h6></li>
+        </ul>
+    </aside>
+
+    <section>
+        <h2>Form Section</h2>
+        <form action="" method="">
+            <input type="text" name="username" placeholder="Example Input"/>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <h4>Select an option to show that you are not a robot</h4>
+            <div>
+                <input type="radio" id="optionA" name="drone" value="optionA">
+                <label for="optionA" id="optionA">optionA</label>
+            </div>
+            <div>
+                <input type="radio" id="optionB" name="drone" value="optionB">
+                <label for="optionB" id="optionB">optionB</label>
+            </div>
+            <div>
+                <input type="radio" id="optionC" name="drone" value="optionC">
+                <label for="optionC" id="optionC">optionC</label>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80" alt="dog picture">
+        <h3>Block of code</h3>
+        <code>
+            function add(num1, num2){
+                let total = num1+num2
+                return total;
+            }
+        </code>
+        <h3>Media Area</h3>
+        <div>
+            <audio controls>
+                <source src="path_to_sound_file.mp3">
+            </audio>
+        </div>
+        <div>
+            <label for="file">File Progress:</label>
+            <progress id="file" value="70" max="100">70%</progress>
+        </div>
+        <div>
+            <h3>Draw Figures</h3>
+            <canvas width="320" height="240"></canvas>
+
+        </div>
+    </section>
+    <footer>
+        <small>Copyright of CodeCore</small>
+    </footer>
+</body>
+</html>
+
+

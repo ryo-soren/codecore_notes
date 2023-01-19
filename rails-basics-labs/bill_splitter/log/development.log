@@ -1,0 +1,542 @@
+  [1m[35m (194.7ms)[0m  [1m[35mCREATE DATABASE "bill_splitter_development" ENCODING = 'unicode'[0m
+  [1m[35m (56.9ms)[0m  [1m[35mCREATE DATABASE "bill_splitter_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-10-20 20:58:09 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 455)
+  Rendered layout layouts/application.html.erb (Duration: 102.7ms | Allocations: 97318)
+Completed 200 OK in 109ms (Views: 106.1ms | ActiveRecord: 0.0ms | Allocations: 102551)
+
+
+Started GET "/" for ::1 at 2022-10-20 21:01:20 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-10-20 21:01:56 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-10-20 21:02:11 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 14318)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 15332)
+
+
+Started GET "/" for ::1 at 2022-10-20 21:02:14 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2387)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2696)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 21:02:18 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2377)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2686)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 21:33:33 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3384)
+Completed 200 OK in 14ms (Views: 11.7ms | Allocations: 4403)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:17:43 -0700
+Processing by BillSplitterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/index.html.erb within layouts/application
+  Rendered bill_splitter/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2764)
+Completed 200 OK in 16ms (Views: 12.4ms | Allocations: 3789)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:18:02 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.1ms | Allocations: 652)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 14524)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 15283)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:20:34 -0700
+  
+SyntaxError (/Users/ryosorensen/code-core/rails-basics-labs/bill_splitter/app/controllers/bill_splitter_controller.rb:7: syntax error, unexpected `end'
+    end
+    ^~~
+):
+  
+app/controllers/bill_splitter_controller.rb:7: syntax error, unexpected `end'
+app/controllers/bill_splitter_controller.rb:7: syntax error, unexpected `end'
+app/controllers/bill_splitter_controller.rb:7: syntax error, unexpected `end'
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:20:40 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.0ms | Allocations: 769)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 14966)
+Completed 200 OK in 15ms (Views: 14.3ms | Allocations: 15976)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:20:59 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.4ms | Allocations: 773)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3422)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 4442)
+
+
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:21:12 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 3.4ms | Allocations: 772)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3409)
+Completed 200 OK in 20ms (Views: 17.2ms | Allocations: 4430)
+
+
+Started GET "/bill_splitter?amount=1&tax=1&tip=1&number_of_people=1&commit=Save+changes" for ::1 at 2022-10-20 23:23:44 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"1", "tax"=>"1", "tip"=>"1", "number_of_people"=>"1", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.4ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 14368)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 15161)
+
+
+Started GET "/bill_splitter?amount=1&tax=1&tip=1&number_of_people=1&commit=Save+changes" for ::1 at 2022-10-20 23:24:08 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"1", "tax"=>"1", "tip"=>"1", "number_of_people"=>"1", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.4ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 14362)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 15154)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:30:37 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1229)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1302)
+Completed 500 Internal Server Error in 3ms (Allocations: 2358)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Bill Splitter</h1>
+
+<%= form_tag bill_splitter_path, method: "get" do %>
+    <%= label_tag :amount %>
+    <%= text_field_tag :amount %>
+    <%= label_tag :tax %>
+    <%= text_field_tag :tax %>
+    <%= label_tag :tip %>
+    <%= text_field_tag :tip %>
+    <%= label_tag :number_of_people %>
+    <%= text_field_tag :number_of_people %>
+    <%= submit_tag %>
+<% end %>
+
+<%= if @total %>
+    <h1>Each person pays <%= total %></h1>
+<% end %>
+):
+1:    <h1>Bill Splitter</h1>
+2:    
+3:    <%= form_tag bill_splitter_path, method: "get" do %>
+4:        <%= label_tag :amount %>
+5:        <%= text_field_tag :amount %>
+6:        <%= label_tag :tax %>
+7:        <%= text_field_tag :tax %>
+8:        <%= label_tag :tip %>
+9:        <%= text_field_tag :tip %>
+10:        <%= label_tag :number_of_people %>
+11:        <%= text_field_tag :number_of_people %>
+12:        <%= submit_tag %>
+13:    <% end %>
+14:    
+15:    <%= if @total %>
+16:        <h1>Each person pays <%= total %></h1>
+17:    <% end %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:31:18 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1207)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1280)
+Completed 500 Internal Server Error in 2ms (Allocations: 2047)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Bill Splitter</h1>
+
+<%= form_tag bill_splitter_path, method: "get" do %>
+    <%= label_tag :amount %>
+    <%= text_field_tag :amount %>
+    <%= label_tag :tax %>
+    <%= text_field_tag :tax %>
+    <%= label_tag :tip %>
+    <%= text_field_tag :tip %>
+    <%= label_tag :number_of_people %>
+    <%= text_field_tag :number_of_people %>
+    <%= submit_tag %>
+<% end %>
+
+<%= if @total %>
+    <h1>Each person pays <%= total %></h1>
+<% end %>
+):
+1:    <h1>Bill Splitter</h1>
+2:    
+3:    <%= form_tag bill_splitter_path, method: "get" do %>
+4:        <%= label_tag :amount %>
+5:        <%= text_field_tag :amount %>
+6:        <%= label_tag :tax %>
+7:        <%= text_field_tag :tax %>
+8:        <%= label_tag :tip %>
+9:        <%= text_field_tag :tip %>
+10:        <%= label_tag :number_of_people %>
+11:        <%= text_field_tag :number_of_people %>
+12:        <%= submit_tag %>
+13:    <% end %>
+14:    
+15:    <%= if @total %>
+16:        <h1>Each person pays <%= total %></h1>
+17:    <% end %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:31:46 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1270)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1343)
+Completed 500 Internal Server Error in 7ms (Allocations: 2364)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Bill Splitter</h1>
+
+<%= form_tag bill_splitter_path, method: "get" do %>
+    <%= label_tag :amount %>
+    <%= text_field_tag :amount %>
+    <%= label_tag :tax %>
+    <%= text_field_tag :tax %>
+    <%= label_tag :tip %>
+    <%= text_field_tag :tip %>
+    <%= label_tag :number_of_people %>
+    <%= text_field_tag :number_of_people %>
+    <%= submit_tag %>
+<% end %>
+
+<%= if @total %>
+    <h1>Each person pays <%= @total %></h1>
+<% end %>
+):
+1:    <h1>Bill Splitter</h1>
+2:    
+3:    <%= form_tag bill_splitter_path, method: "get" do %>
+4:        <%= label_tag :amount %>
+5:        <%= text_field_tag :amount %>
+6:        <%= label_tag :tax %>
+7:        <%= text_field_tag :tax %>
+8:        <%= label_tag :tip %>
+9:        <%= text_field_tag :tip %>
+10:        <%= label_tag :number_of_people %>
+11:        <%= text_field_tag :number_of_people %>
+12:        <%= submit_tag %>
+13:    <% end %>
+14:    
+15:    <%= if @total %>
+16:        <h1>Each person pays <%= @total %></h1>
+17:    <% end %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:32:32 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1270)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1343)
+Completed 500 Internal Server Error in 8ms (Allocations: 2365)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Bill Splitter</h1>
+
+<%= form_tag bill_splitter_path, method: "GET" do %>
+    <%= label_tag :amount %>
+    <%= text_field_tag :amount %>
+    <%= label_tag :tax %>
+    <%= text_field_tag :tax %>
+    <%= label_tag :tip %>
+    <%= text_field_tag :tip %>
+    <%= label_tag :number_of_people %>
+    <%= text_field_tag :number_of_people %>
+    <%= submit_tag %>
+<% end %>
+
+<%= if @total %>
+    <h1>Each person pays <%= @total %></h1>
+<% end %>
+):
+1:    <h1>Bill Splitter</h1>
+2:    
+3:    <%= form_tag bill_splitter_path, method: "GET" do %>
+4:        <%= label_tag :amount %>
+5:        <%= text_field_tag :amount %>
+6:        <%= label_tag :tax %>
+7:        <%= text_field_tag :tax %>
+8:        <%= label_tag :tip %>
+9:        <%= text_field_tag :tip %>
+10:        <%= label_tag :number_of_people %>
+11:        <%= text_field_tag :number_of_people %>
+12:        <%= submit_tag %>
+13:    <% end %>
+14:    
+15:    <%= if @total %>
+16:        <h1>Each person pays <%= @total %></h1>
+17:    <% end %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:15: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/bill_splitter/bill_splitter.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/bill_splitter/bill_splitter.html.erb:19: syntax error, unexpected `end', expecting ')'
+Started GET "/bill_splitter" for ::1 at 2022-10-20 23:33:26 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.5ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 14994)
+Completed 200 OK in 23ms (Views: 18.7ms | Allocations: 16047)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:34:07 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.6ms | Allocations: 459)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2832)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 3164)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:34:38 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2206)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2278)
+Completed 500 Internal Server Error in 8ms (Allocations: 3293)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x0000000116de79e0>::NaN):
+    12:     <%= submit_tag %>
+    13: <% end %>
+    14: 
+    15: <% if @total && @total != NaN %>
+    16:     <h1>Each person pays <%= @total %></h1>
+    17: <% end %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:15
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:34:53 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.3ms | Allocations: 821)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3478)
+Completed 200 OK in 15ms (Views: 12.8ms | Allocations: 4522)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:34:55 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.9ms | Allocations: 460)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2815)
+Completed 200 OK in 7ms (Views: 5.8ms | Allocations: 3145)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:34:56 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.7ms | Allocations: 460)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2827)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 3156)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:36:15 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.4ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 14448)
+Completed 200 OK in 10ms (Views: 9.8ms | Allocations: 15226)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:36:17 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.9ms | Allocations: 460)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2827)
+Completed 200 OK in 11ms (Views: 8.2ms | Allocations: 3152)
+
+
+Started GET "/bill_splitter?amount=20&tax=5&tip=15&number_of_people=2&commit=Save+changes" for ::1 at 2022-10-20 23:36:40 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"20", "tax"=>"5", "tip"=>"15", "number_of_people"=>"2", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 0.4ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 14369)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 15147)
+
+
+Started GET "/bill_splitter?amount=95&tax=5&tip=18&number_of_people=4&commit=Save+changes" for ::1 at 2022-10-20 23:37:16 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"95", "tax"=>"5", "tip"=>"18", "number_of_people"=>"4", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.5ms | Allocations: 460)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2823)
+Completed 200 OK in 11ms (Views: 6.7ms | Allocations: 3150)
+
+
+Started GET "/bill_splitter?amount=95&tax=5&tip=18&number_of_people=4&commit=Save+changes" for ::1 at 2022-10-20 23:37:34 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"95", "tax"=>"5", "tip"=>"18", "number_of_people"=>"4", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.5ms | Allocations: 821)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3464)
+Completed 200 OK in 11ms (Views: 8.0ms | Allocations: 4503)
+
+
+Started GET "/bill_splitter?amount=95&tax=5&tip=18&number_of_people=4&commit=Save+changes" for ::1 at 2022-10-20 23:44:24 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"95", "tax"=>"5", "tip"=>"18", "number_of_people"=>"4", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4981)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5056)
+Completed 500 Internal Server Error in 14ms (Allocations: 6069)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x000000000300c0>):
+     9:     <%= text_field_tag :tip %>
+    10:     <%= label_tag :number_of_people %>
+    11:     <%= text_field_tag :number_of_people %>
+    12:     <%= f.submit "Submit"%>
+    13: <% end %>
+    14: 
+    15: <% if @total && @total != "NaN" %>
+  
+app/views/bill_splitter/bill_splitter.html.erb:12
+app/views/bill_splitter/bill_splitter.html.erb:3
+Started GET "/bill_splitter?amount=95&tax=5&tip=18&number_of_people=4&commit=Save+changes" for ::1 at 2022-10-20 23:44:34 -0700
+Processing by BillSplitterController#bill_splitter as HTML
+  Parameters: {"amount"=>"95", "tax"=>"5", "tip"=>"18", "number_of_people"=>"4", "commit"=>"Save changes"}
+  Rendering layout layouts/application.html.erb
+  Rendering bill_splitter/bill_splitter.html.erb within layouts/application
+  Rendered bill_splitter/bill_splitter.html.erb within layouts/application (Duration: 1.2ms | Allocations: 823)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3480)
+Completed 200 OK in 18ms (Views: 16.3ms | Allocations: 4520)
+
+

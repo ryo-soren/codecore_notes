@@ -1,0 +1,17 @@
+<h1>Bill Splitter</h1>
+
+<%= form_tag bill_splitter_path, method: "GET" do %>
+    <%= label_tag :amount %>
+    <%= text_field_tag :amount %>
+    <%= label_tag :tax %>
+    <%= text_field_tag :tax %>
+    <%= label_tag :tip %>
+    <%= text_field_tag :tip %>
+    <%= label_tag :number_of_people %>
+    <%= text_field_tag :number_of_people %>
+    <%= submit_tag "Submit"%>
+<% end %>
+
+<% if @total && @total != "NaN" %>
+    <h1>Each person must pay $<%= @total %></h1>
+<% end %>

@@ -1,0 +1,31 @@
+- Separated by layers -
+1) link - logical network component to interconnect nodes, furthest element from the user,
+2) internet - determines how to transport data from one link to another, sets the destination for info sent 
+3) transport - cuts up data into pieces called packets, determines how the data is to be sent and reconstructed. 
+TCP ports determine these defaults - 16 bit ports. Only one app can be listening on a given ports 
+
+- In terminal -
+host <website name> - provides ip address and domain information 
+whois <website name> - provides information about the author and organisation
+
+- Connecting server to client -
+
+SERVER
+const net = require("net"); // built in module on node that is used for creating TCP servers 
+const server = net.createServer(function(socket){  
+    // takes in callback function 
+    // is an event listener - event listener is a function that will trigger on a specified event
+    // "socket" argument is an objet that represents a connection
+
+    socket.on("data") <- detects data from client (.write(data))
+
+    socket.on("end") <- detects data end from client
+    }
+
+CLIENT
+client.on("data") <- takes data from server (.write(data))
+client.connect(port, address (){ <- writes data to server
+    function 
+})
+
+- html - 

@@ -1,0 +1,9 @@
+<%- include("../partials/header.ejs")  %>
+
+<form action="/notes/<%-note.id%>" method="POST">
+    <input type="hidden" name="_method" value="PATCH" >
+    <%- include("../partials/input.ejs")  %> 
+    <input type="submit" value="PATCH">
+</form>
+
+<%- include("../partials/footer.ejs")  %> 

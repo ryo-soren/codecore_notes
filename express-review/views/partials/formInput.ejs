@@ -1,0 +1,24 @@
+<div class="form-group">
+    <input  
+    type="text"
+    class="form-control" 
+    name="title" 
+    placeholder="Title" 
+    value="<%=todo ? todo.title : ''%>">
+</div>
+<div class="form-group">
+    <input
+      type="url"
+      class="form-control"
+      name="imageUrl"
+      placeholder="e.g. http://image.com/myPic.jpg"
+      value="<%= todo ? todo.imageUrl : '' %>"
+    />
+</div>
+<div class="form-group">
+    <textarea 
+    name="content" 
+    type="text" 
+    class="form-control" 
+    placeholder="Jon Snow, Daenerys, Melisandre, Arya Stark"><%-todo?todo.content:""%></textarea>
+</div>

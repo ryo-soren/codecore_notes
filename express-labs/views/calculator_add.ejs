@@ -1,0 +1,40 @@
+<%- include("./partials/header.ejs")  %> 
+    
+        <form action="/calculator_add">
+            <div class="form-container">
+                <input type="text" id="num1_add" name="num1_add">
+                <div class="operator">+</div>
+                <input type="text" id="num2_add" name="num2_add">
+                <button type="submit" class="equal">=</button>
+                <% if (total) { %>
+                <div class="equal"><%-total%></div>
+                <% } %>
+            </div>
+        </form>
+        <form action="/calculator_sub">
+            <div class="form-container">
+                <input type="text" id="num1_sub" name="num1_sub">
+                <div class="operator">-</div>
+                <input type="text" id="num2_sub" name="num2_sub">
+                <button type="submit" class="equal">=</button>
+            </div>
+        </form>
+        <form action="/calculator_mult">
+            <div class="form-container">
+                <input type="text" id="num1_mult" name="num1_mult">
+                <div class="operator">x</div>
+                <input type="text" id="num2_mult2" name="num2_mult2">
+                <button type="submit" class="equal">=</button>
+            </div>
+        </form>
+        <form action="/calculator_div">
+            <div class="form-container">
+                <input type="text" id="num1_div" name="num1_div">
+                <div class="operator">/</div>
+                <input type="text" id="num2_div" name="num2_div">
+                <button type="submit" class="equal">=</button>
+            </div>
+        </form>
+    
+</body>
+</html>

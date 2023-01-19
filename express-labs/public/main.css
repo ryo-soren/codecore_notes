@@ -1,0 +1,19 @@
+form > .form-container{
+    width: 50%;
+    display: flex;
+    margin: 2em;
+}
+
+div.operator{
+    padding: .5em;
+    background-color: grey;
+    color: white;
+}
+
+.equal{
+    padding: .5em;
+    background-color: #dd4814;
+    color: white;
+    margin: .5em;
+    border-radius: 4px;
+}

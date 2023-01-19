@@ -1,0 +1,11 @@
+<%- include("../partials/header.ejs")  %> 
+    <h1>Index of Notes</h1>
+    <% for( let note of notes) { %>
+        <div>
+            <div><%- note.created_at  %> </div>
+            <a href="/notes/<%-note.id%>"><%- note.id %></a>
+            <p><%- note.content %> </p>
+        </div>
+        <br>
+    <% } %>
+<%- include("../partials/footer.ejs")  %> 

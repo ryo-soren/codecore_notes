@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AmazonApplication</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+
+  <nav>
+    <%= link_to "Home", root_path%>
+    <%= link_to "About Us", about_path%>
+    <%= link_to "Contact Us", contact_path%>
+    <%= link_to "Index", products_path%>
+    <%= link_to "New", new_product_path%>
+    <% if can? :admin, current_user %>
+    <%= link_to "Panel", admin_panel_path%>
+    <% end %>
+    <% if(user_signed_in?) %>
+      Hello <%= current_user.full_name %>
+      <%= button_to "Log Out", session_path, method: :delete %>
+      <%= link_to "Favourite Products", favourites_path %>
+    <% else %>
+      <%= link_to "Sign In", new_session_path %>
+    <% end %>
+    <%= link_to "Sign Up", new_user_path %>
+    
+    </nav>
+    <% flash.each do |type, message| %>
+      <%= type + "-------" + message %>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>
+

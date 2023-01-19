@@ -1,0 +1,12 @@
+h1{
+    margin: auto;
+    text-align: center;
+    padding:1em;
+}
+body{
+    background-color: aqua;
+}
+img{
+    max-width: 100%;
+    margin: auto;
+}
